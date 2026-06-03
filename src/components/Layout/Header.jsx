@@ -1,9 +1,15 @@
-import { Link, useNavigate } from 'react-router-dom'
-import { ShoppingCart, User, MapPin, LogOut } from 'lucide-react'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { ShoppingCart, User, MapPin, LogOut, ClipboardList, Tag, Star } from 'lucide-react'
 import { useCart } from '../../contexts/CartContext'
 import { useUnit } from '../../contexts/UnitContext'
 import { useAuth } from '../../contexts/AuthContext'
 import Badge from '../UI/Badge'
+
+const desktopLinks = [
+  { to: '/orders', label: 'Pedidos', icon: ClipboardList },
+  { to: '/loyalty', label: 'Fidelidade', icon: Star },
+  { to: '/promotions', label: 'Promoções', icon: Tag },
+]
 
 export default function Header() {
   const { totalItems } = useCart()
@@ -29,11 +35,32 @@ export default function Header() {
         {selectedUnit && (
           <button
             onClick={() => navigate('/')}
-            className="hidden sm:flex items-center gap-1.5 text-sm text-gray-600 hover:text-primary transition-colors bg-surface-dark/50 px-3 py-1.5 rounded-full"
+            className="hidden sm:flex items-center gap-1.5 text-sm text-gray-600 hover:text-primary transition-colors bg-surface-dark/50 px-3 py-1.5 rounded-full cursor-pointer"
           >
             <MapPin className="w-3.5 h-3.5" />
             <span className="max-w-[180px] truncate">{selectedUnit.name}</span>
           </button>
+        )}
+
+        {user && (
+          <nav className="hidden sm:flex items-center gap-1">
+            {desktopLinks.map(({ to, label, icon: Icon }) => (
+              <NavLink
+                key={to}
+                to={to}
+                className={({ isActive }) =>
+                  `flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                    isActive
+                      ? 'bg-primary/10 text-primary'
+                      : 'text-gray-600 hover:text-primary hover:bg-gray-50'
+                  }`
+                }
+              >
+                <Icon className="w-4 h-4" />
+                {label}
+              </NavLink>
+            ))}
+          </nav>
         )}
 
         <div className="flex items-center gap-3">
@@ -50,7 +77,7 @@ export default function Header() {
               </Link>
               <button
                 onClick={logout}
-                className="p-2 text-gray-400 hover:text-danger transition-colors"
+                className="p-2 text-gray-400 hover:text-danger transition-colors cursor-pointer"
                 title="Sair"
               >
                 <LogOut className="w-4 h-4" />

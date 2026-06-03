@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { ClipboardList, ChevronRight } from 'lucide-react'
+import { ClipboardList, ChevronRight, RotateCcw } from 'lucide-react'
 import PageContainer from '../../components/Layout/PageContainer'
 import Button from '../../components/UI/Button'
 import { useOrder } from '../../contexts/OrderContext'
@@ -18,6 +18,13 @@ const statusColors = {
   preparing: 'bg-amber-100 text-amber-700',
   ready: 'bg-green-100 text-green-700',
   picked_up: 'bg-gray-100 text-gray-600',
+}
+
+function handleClearCache() {
+  if (window.confirm('Isso vai limpar todos os dados (login, carrinho, pedidos, fidelidade). Deseja continuar?')) {
+    localStorage.clear()
+    window.location.href = '/'
+  }
 }
 
 export default function OrdersPage() {
@@ -49,15 +56,33 @@ export default function OrdersPage() {
           Que tal experimentar nossos sabores?
         </p>
         <Button onClick={() => navigate('/menu')}>Ver Cardápio</Button>
+
+        <button
+          onClick={handleClearCache}
+          className="mt-8 flex items-center gap-1.5 text-xs text-gray-400 hover:text-danger transition-colors cursor-pointer"
+        >
+          <RotateCcw className="w-3.5 h-3.5" />
+          Resetar dados do app
+        </button>
       </PageContainer>
     )
   }
 
   return (
     <PageContainer>
-      <h1 className="font-display font-bold text-2xl text-gray-800 mb-6">
-        Meus Pedidos
-      </h1>
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="font-display font-bold text-2xl text-gray-800">
+          Meus Pedidos
+        </h1>
+        <button
+          onClick={handleClearCache}
+          className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-danger transition-colors cursor-pointer"
+          title="Limpar todos os dados e recomeçar"
+        >
+          <RotateCcw className="w-3.5 h-3.5" />
+          Resetar
+        </button>
+      </div>
 
       <div className="space-y-3">
         {orders.map((order) => (
