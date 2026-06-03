@@ -1,0 +1,29 @@
+[
+  {
+    "id": "recife-boa-viagem",
+    "name": "Recife — Boa Viagem",
+    "address": "Av. Conselheiro Aguiar, 2040 — Boa Viagem, Recife/PE",
+    "phone": "(81) 3333-1010",
+    "hours": "Seg–Dom: 10h às 22h",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+    "coordinates": { "lat": -8.1204, "lng": -34.9015 }
+  },
+  {
+    "id": "salvador-pelourinho",
+    "name": "Salvador — Pelourinho",
+    "address": "Rua das Laranjeiras, 18 — Pelourinho, Salvador/BA",
+    "phone": "(71) 3333-2020",
+    "hours": "Seg–Dom: 09h às 23h",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+    "coordinates": { "lat": -12.9714, "lng": -38.5124 }
+  },
+  {
+    "id": "fortaleza-beira-mar",
+    "name": "Fortaleza — Beira Mar",
+    "address": "Av. Beira Mar, 3150 — Meireles, Fortaleza/CE",
+    "phone": "(85) 3333-3030",
+    "hours": "Seg–Dom: 10h às 22h",
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&h=400&fit=crop",
+    "coordinates": { "lat": -3.7253, "lng": -38.4957 }
+  }
+]

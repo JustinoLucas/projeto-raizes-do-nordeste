@@ -1,0 +1,15 @@
+{
+  "program": {
+    "name": "Cartão Fidelidade Raízes",
+    "stampsRequired": 10,
+    "reward": "1 Combo Raízes grátis",
+    "description": "A cada pedido, ganhe 1 carimbo. Complete 10 e ganhe um Combo Raízes por nossa conta!",
+    "rules": [
+      "Cada pedido acima de R$ 20,00 gera 1 carimbo",
+      "Carimbos não expiram",
+      "O prêmio deve ser resgatado em até 30 dias",
+      "Válido em todas as unidades",
+      "Promoções especiais podem gerar carimbos em dobro"
+    ]
+  }
+}

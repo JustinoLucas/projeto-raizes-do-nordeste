@@ -1,0 +1,48 @@
+[
+  {
+    "id": "promo-primeira-compra",
+    "title": "Primeira Compra",
+    "description": "Ganhe 15% de desconto no seu primeiro pedido! Use o cupom na hora do pagamento.",
+    "code": "PRIMEIRARAIZ",
+    "discount": 15,
+    "type": "percentage",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=300&fit=crop",
+    "validUntil": "2026-07-31",
+    "active": true
+  },
+  {
+    "id": "promo-combo-dia",
+    "title": "Combo do Dia",
+    "description": "Toda terça e quinta, combos com 20% de desconto. Aproveite os sabores do Nordeste!",
+    "code": "COMBODIA",
+    "discount": 20,
+    "type": "percentage",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=300&fit=crop",
+    "validUntil": "2026-08-31",
+    "active": true,
+    "days": ["tuesday", "thursday"]
+  },
+  {
+    "id": "promo-fidelidade-dupla",
+    "title": "Fidelidade em Dobro",
+    "description": "Neste mês, cada compra vale 2 carimbos no seu cartão fidelidade! Mais perto do brinde.",
+    "code": null,
+    "discount": null,
+    "type": "loyalty_multiplier",
+    "multiplier": 2,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&h=300&fit=crop",
+    "validUntil": "2026-06-30",
+    "active": true
+  },
+  {
+    "id": "promo-delivery-gratis",
+    "title": "Frete Grátis na Retirada",
+    "description": "Peça pelo app e retire na loja sem pagar taxa adicional. Rápido e econômico!",
+    "code": null,
+    "discount": null,
+    "type": "free_pickup",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=300&fit=crop",
+    "validUntil": "2026-12-31",
+    "active": true
+  }
+]

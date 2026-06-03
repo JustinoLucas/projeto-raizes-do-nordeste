@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user-001",
+    "name": "Maria Souza",
+    "email": "maria@email.com",
+    "password": "123456",
+    "phone": "(81) 99999-1111",
+    "cpf": "123.456.789-00",
+    "loyaltyStamps": 7,
+    "totalOrders": 12,
+    "lgpdConsent": true,
+    "lgpdConsentDate": "2026-01-15"
+  },
+  {
+    "id": "user-002",
+    "name": "João Silva",
+    "email": "joao@email.com",
+    "password": "123456",
+    "phone": "(71) 98888-2222",
+    "cpf": "987.654.321-00",
+    "loyaltyStamps": 3,
+    "totalOrders": 5,
+    "lgpdConsent": true,
+    "lgpdConsentDate": "2026-02-20"
+  }
+]

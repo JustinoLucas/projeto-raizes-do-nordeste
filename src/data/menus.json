@@ -1,0 +1,291 @@
+{
+  "recife-boa-viagem": [
+    {
+      "id": "tap-carne-sol",
+      "name": "Tapioca de Carne de Sol",
+      "description": "Tapioca recheada com carne de sol desfiada, queijo coalho derretido e manteiga de garrafa",
+      "price": 22.90,
+      "category": "Tapiocas",
+      "image": "https://images.unsplash.com/photo-1676515231566-eb804ac487c1?w=400&h=300&fit=crop",
+      "available": true
+    },
+    {
+      "id": "tap-frango",
+      "name": "Tapioca de Frango com Catupiry",
+      "description": "Tapioca com frango desfiado temperado e catupiry cremoso",
+      "price": 19.90,
+      "category": "Tapiocas",
+      "image": "https://unsplash.com/photos/GKeCvrarUXY/download?w=400",
+      "available": true
+    },
+    {
+      "id": "tap-banana",
+      "name": "Tapioca de Banana com Canela",
+      "description": "Tapioca doce com banana caramelizada, canela e leite condensado",
+      "price": 16.90,
+      "category": "Tapiocas",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&h=300&fit=crop",
+      "available": true
+    },
+    {
+      "id": "acaraje-classic",
+      "name": "Acarajé Tradicional",
+      "description": "Bolinho de feijão fradinho frito no azeite de dendê, recheado com vatapá e caruru",
+      "price": 18.90,
+      "category": "Acarajés",
+      "image": "https://unsplash.com/photos/pQnsKWk5ljQ/download?w=400",
+      "available": true
+    },
+    {
+      "id": "acaraje-camarao",
+      "name": "Acarajé de Camarão",
+      "description": "Acarajé especial com camarão seco, vatapá e salada fresca",
+      "price": 24.90,
+      "category": "Acarajés",
+      "image": "https://unsplash.com/photos/WVoLfiKbYBQ/download?w=400",
+      "available": true
+    },
+    {
+      "id": "coxinha-charque",
+      "name": "Coxinha de Charque",
+      "description": "Coxinha crocante recheada com charque desfiado e cream cheese",
+      "price": 12.90,
+      "category": "Salgados",
+      "image": "https://unsplash.com/photos/UgckYUoc0tM/download?w=400",
+      "available": true
+    },
+    {
+      "id": "pastel-baiao",
+      "name": "Pastel de Baião de Dois",
+      "description": "Pastel gigante recheado com baião de dois (arroz, feijão verde e queijo coalho)",
+      "price": 14.90,
+      "category": "Salgados",
+      "image": "https://unsplash.com/photos/Jf2rCI8CN0g/download?w=400",
+      "available": true
+    },
+    {
+      "id": "suco-caju",
+      "name": "Suco de Caju",
+      "description": "Suco natural de caju, gelado e refrescante (400ml)",
+      "price": 9.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/AjG1BkDH4Zs/download?w=400",
+      "available": true
+    },
+    {
+      "id": "suco-acerola",
+      "name": "Suco de Acerola",
+      "description": "Suco natural de acerola com gelo (400ml)",
+      "price": 9.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/lw8GflbJwLc/download?w=400",
+      "available": true
+    },
+    {
+      "id": "guarana-jesus",
+      "name": "Guaraná Jesus",
+      "description": "O refrigerante rosa mais famoso do Nordeste (350ml)",
+      "price": 7.90,
+      "category": "Bebidas",
+      "image": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2020/10/5dbf728933d8066614691255c8fa3fba.png",
+      "available": true
+    },
+    {
+      "id": "cartola",
+      "name": "Cartola",
+      "description": "Banana frita com queijo coalho derretido, açúcar e canela",
+      "price": 15.90,
+      "category": "Sobremesas",
+      "image": "https://unsplash.com/photos/pQAStFc_aRE/download?w=400",
+      "available": true
+    },
+    {
+      "id": "bolo-rolo",
+      "name": "Bolo de Rolo",
+      "description": "Fatia do tradicional bolo de rolo pernambucano com goiabada",
+      "price": 12.90,
+      "category": "Sobremesas",
+      "image": "https://unsplash.com/photos/as8DVHaGnB0/download?w=400",
+      "available": true
+    },
+    {
+      "id": "combo-nordestino",
+      "name": "Combo Raízes",
+      "description": "1 Tapioca de Carne de Sol + 1 Suco de Caju + 1 Cartola",
+      "price": 39.90,
+      "originalPrice": 48.70,
+      "category": "Combos",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop",
+      "available": true
+    },
+    {
+      "id": "combo-familia",
+      "name": "Combo Família Nordestina",
+      "description": "2 Acarajés + 2 Tapiocas + 4 Sucos + 2 Cartolas — serve 4 pessoas",
+      "price": 119.90,
+      "originalPrice": 149.20,
+      "category": "Combos",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
+      "available": true
+    }
+  ],
+  "salvador-pelourinho": [
+    {
+      "id": "sal-acaraje-classic",
+      "name": "Acarajé da Dinha",
+      "description": "Receita tradicional baiana com vatapá, caruru e camarão seco",
+      "price": 21.90,
+      "category": "Acarajés",
+      "image": "https://unsplash.com/photos/pQnsKWk5ljQ/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-abara",
+      "name": "Abará",
+      "description": "Bolinho de feijão fradinho cozido na folha de bananeira com temperos baianos",
+      "price": 17.90,
+      "category": "Acarajés",
+      "image": "https://unsplash.com/photos/SZGNQxd0HfI/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-moqueca",
+      "name": "Moqueca Baiana (porção)",
+      "description": "Porção de moqueca de peixe com leite de coco, dendê e pimentão",
+      "price": 34.90,
+      "category": "Pratos",
+      "image": "https://unsplash.com/photos/8kqMHoGfbMg/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-bobó",
+      "name": "Bobó de Camarão",
+      "description": "Creme de aipim com camarão, leite de coco e azeite de dendê",
+      "price": 32.90,
+      "category": "Pratos",
+      "image": "https://unsplash.com/photos/-ps36yg89Lg/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-tapioca-coco",
+      "name": "Tapioca de Coco",
+      "description": "Tapioca com coco fresco ralado e leite condensado",
+      "price": 14.90,
+      "category": "Tapiocas",
+      "image": "https://images.unsplash.com/photo-1676515231566-eb804ac487c1?w=400&h=300&fit=crop",
+      "available": true
+    },
+    {
+      "id": "sal-suco-manga",
+      "name": "Suco de Manga Espada",
+      "description": "Suco natural de manga espada (400ml)",
+      "price": 10.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/lw8GflbJwLc/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-agua-coco",
+      "name": "Água de Coco",
+      "description": "Água de coco gelada natural (500ml)",
+      "price": 8.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/kweCiLsIgJ4/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-cocada",
+      "name": "Cocada Baiana",
+      "description": "Cocada artesanal branca e preta (2 unidades)",
+      "price": 10.90,
+      "category": "Sobremesas",
+      "image": "https://unsplash.com/photos/MCnTbN2Jn_c/download?w=400",
+      "available": true
+    },
+    {
+      "id": "sal-combo-bahia",
+      "name": "Combo Axé",
+      "description": "1 Acarajé da Dinha + 1 Suco de Manga + 1 Cocada",
+      "price": 36.90,
+      "originalPrice": 43.70,
+      "category": "Combos",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop",
+      "available": true
+    }
+  ],
+  "fortaleza-beira-mar": [
+    {
+      "id": "for-caranguejo",
+      "name": "Caranguejada (porção)",
+      "description": "Porção de caranguejo cozido com tempero cearense especial",
+      "price": 44.90,
+      "category": "Pratos",
+      "image": "https://unsplash.com/photos/i7qF2qAVYk8/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-baiao",
+      "name": "Baião de Dois Completo",
+      "description": "Arroz com feijão verde, queijo coalho, nata e carne de sol",
+      "price": 28.90,
+      "category": "Pratos",
+      "image": "https://unsplash.com/photos/GVJAkiE71Kg/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-tapioca-camarao",
+      "name": "Tapioca de Camarão",
+      "description": "Tapioca recheada com camarão alho e óleo e cream cheese",
+      "price": 25.90,
+      "category": "Tapiocas",
+      "image": "https://unsplash.com/photos/y_lgy-26sZA/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-pao-delicia",
+      "name": "Pão Delícia",
+      "description": "Pão de forma recheado com frango, milho e batata palha — clássico cearense",
+      "price": 16.90,
+      "category": "Salgados",
+      "image": "https://unsplash.com/photos/El0hEiDIZqQ/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-caldo-cana",
+      "name": "Caldo de Cana com Limão",
+      "description": "Caldo de cana natural com limão e gelo (500ml)",
+      "price": 8.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/AjG1BkDH4Zs/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-suco-graviola",
+      "name": "Suco de Graviola",
+      "description": "Suco cremoso de graviola natural (400ml)",
+      "price": 10.90,
+      "category": "Bebidas",
+      "image": "https://unsplash.com/photos/KlVIYmGVRQ8/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-rapadura",
+      "name": "Rapadura Gourmet",
+      "description": "Rapadura artesanal com castanha de caju caramelizada",
+      "price": 11.90,
+      "category": "Sobremesas",
+      "image": "https://unsplash.com/photos/k4w2o7TVjks/download?w=400",
+      "available": true
+    },
+    {
+      "id": "for-combo-ceara",
+      "name": "Combo Iracema",
+      "description": "1 Baião de Dois + 1 Caldo de Cana + 1 Rapadura Gourmet",
+      "price": 42.90,
+      "originalPrice": 49.70,
+      "category": "Combos",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
+      "available": true
+    }
+  ]
+}
